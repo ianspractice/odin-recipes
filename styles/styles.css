@@ -22,13 +22,13 @@ body {
   border: 5px double black;
 }
 .container {
-  width: 60%;
+  max-width: 500px;
   text-align: center;
   margin: 0 auto;
 }
 
 h1 {
-  border: 3px dotted rgba(28, 95, 5, 0.995);
+  border: 5px dotted rgba(28, 95, 5, 0.995);
   background-color: rgb(232, 234, 231);
 }
 
@@ -55,5 +55,6 @@ ul {
   text-align: left;
   margin: 50px;
   display: inline-block;
-  padding: 20px 20px 20px 30px;
+  padding: 20px 100px;
+  border: 2px dashed rgb(124, 5, 5);
 }
