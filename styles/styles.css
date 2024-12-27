@@ -6,12 +6,21 @@ html {
   box-sizing: border-box;
 }
 
+* {
+  border: 0px;
+  padding: 0px;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: aliceblue;
+  border: 5px double black;
+}
 .container {
   width: 60%;
   text-align: center;
@@ -20,6 +29,7 @@ html {
 
 h1 {
   border: 3px dotted rgba(28, 95, 5, 0.995);
+  background-color: rgb(232, 234, 231);
 }
 
 img {
