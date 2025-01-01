@@ -21,16 +21,17 @@ div.container {
 }
 
 div.heading {
-  margin-right: 50px;
+  margin-right: 5px;
   margin-left: 5px;
   padding: 10px;
   font-size: 1.2em;
   text-align: center;
-  flex: 1;
+  flex: none;
 }
 
 div.list-container,
-div.heading {
+div.heading,
+div.info-container {
   background-color: rgb(217, 217, 246);
   border: 3px solid rgb(0, 26, 128);
   font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +39,15 @@ div.heading {
 
 div.list-container {
   margin-right: 5px;
-  flex: 2;
+  flex: auto;
+}
+
+div.info-container {
+  margin: 5px 5px 0 0;
+  flex-wrap: wrap;
+  width: 20%;
+  flex: initial;
+  align-self: flex-start;
 }
 
 ul.lists {
